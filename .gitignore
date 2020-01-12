@@ -1,0 +1,5 @@
+vendor/
+.env
+database/*.sqlite
+database/*.sqlite3
+.idea

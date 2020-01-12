@@ -1,0 +1,16 @@
+{
+  "name": "chris/pseud-bot",
+  "require": {
+    "vlucas/phpdotenv": "^4.1",
+    "team-reflex/discord-php": "^4.0",
+    "ext-pdo": "*",
+    "robmorgan/phinx": "^0.11.4",
+    "phpoption/phpoption": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PseudBot\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
